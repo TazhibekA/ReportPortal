@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends AbstractPage {
-	static private final String url = "https://rp.epam.com/ui/#login";
+	private static final String URL = "https://rp.epam.com/ui/#login";
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
@@ -14,7 +14,7 @@ public class LoginPage extends AbstractPage {
 
 	public LoginPage openPage()
 	{
-		driver.navigate().to(url);
+		driver.navigate().to(URL);
 		return this;
 	}
 }
