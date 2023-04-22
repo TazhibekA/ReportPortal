@@ -8,7 +8,7 @@ import java.time.Duration;
 public class AbstractPage {
 	protected WebDriver driver;
 	protected final WebDriverWait wait;
-	protected static final int WAITSECONDS = 10;
+	protected static final int WAITSECONDS = 60;
 	protected AbstractPage(WebDriver driver)
 	{
 		this.driver = driver;
