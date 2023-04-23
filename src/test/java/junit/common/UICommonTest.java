@@ -1,16 +1,17 @@
-package common;
+package junit.common;
 
 import business.pages.LaunchesPage;
 import business.pages.LoginPage;
 import core.config.DriverSingleton;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 
 public class UICommonTest {
 	protected LaunchesPage launchesPage;
 	protected WebDriver driver;
-	@BeforeMethod()
+
+	@BeforeEach()
 	public void setUp()
 	{
 		driver = DriverSingleton.getDriver();
@@ -24,7 +25,7 @@ public class UICommonTest {
 						.clickLaunches();
 	}
 
-	@AfterMethod(alwaysRun = true)
+	@AfterEach
 	public void stopBrowser()
 	{
 		DriverSingleton.closeDriver();

@@ -1,5 +1,5 @@
-package ui;
-import common.UICommonTest;
+package testng.ui;
+import testng.common.UICommonTest;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
