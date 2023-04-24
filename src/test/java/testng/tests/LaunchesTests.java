@@ -1,9 +1,9 @@
-package tests;
-import common.UITestngCommonTest;
+package testng.tests;
+import testng.common.UICommonTest;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class TestngLaunchesTests extends UITestngCommonTest {
+public class LaunchesTests extends UICommonTest {
 
 	@DataProvider(name = "Column names")
 	public static Object[][] columnNames() {

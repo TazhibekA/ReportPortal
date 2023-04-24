@@ -1,4 +1,4 @@
-package common;
+package testng.common;
 
 import business.pages.LaunchesPage;
 import business.pages.LoginPage;
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class UITestngCommonTest {
+public class UICommonTest {
 	protected LaunchesPage launchesPage;
 	protected WebDriver driver;
 	@BeforeMethod()

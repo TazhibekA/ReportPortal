@@ -1,4 +1,4 @@
-package common;
+package junit.common;
 
 import business.pages.LaunchesPage;
 import business.pages.LoginPage;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 
-public class UIJunitCommonTest {
+public class UICommonTest {
 	protected LaunchesPage launchesPage;
 	protected WebDriver driver;
 
