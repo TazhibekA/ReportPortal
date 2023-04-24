@@ -1,11 +1,11 @@
-package junit.ui;
+package tests;
 
-import junit.common.UICommonTest;
+import common.UIJunitCommonTest;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.testng.Assert;
 
-public class LaunchesTests extends UICommonTest {
+public class JunitLaunchesTests extends UIJunitCommonTest {
 
 	@ParameterizedTest
 	@ValueSource(strings = {"NAME", "START TIME", "TOTAL", "PASSED", "FAILED", "SKIPPED", "PRODUCT BUG", "AUTO BUG", "SYSTEM ISSUE", "TO INVESTIGATE"})
