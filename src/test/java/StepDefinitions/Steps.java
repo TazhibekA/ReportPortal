@@ -1,7 +1,7 @@
 package StepDefinitions;
 
-import business.pages.LaunchesPage;
-import business.pages.LoginPage;
+import business.selenium.pages.LaunchesPage;
+import business.selenium.pages.LoginPage;
 import core.config.DriverSingleton;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

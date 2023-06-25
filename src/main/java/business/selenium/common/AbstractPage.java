@@ -1,4 +1,4 @@
-package business.common;
+package business.selenium.common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;

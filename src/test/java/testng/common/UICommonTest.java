@@ -1,7 +1,7 @@
 package testng.common;
 
-import business.pages.LaunchesPage;
-import business.pages.LoginPage;
+import business.selenium.pages.LaunchesPage;
+import business.selenium.pages.LoginPage;
 import core.config.DriverSingleton;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;

@@ -1,6 +1,6 @@
-package business.pages;
+package business.selenium.pages;
 
-import business.common.AbstractPage;
+import business.selenium.common.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

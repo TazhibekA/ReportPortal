@@ -1,6 +1,7 @@
-package business.pages;
+package business.selenium.pages;
 
-import business.common.AbstractPage;
+import business.selenium.common.AbstractPage;
+import core.utils.JSExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -57,7 +58,7 @@ public class LaunchesPage extends AbstractPage {
 	}
 
 	public LaunchesPage clickHamburgerIcon(){
-		hamburgerIcon.click();
+		new JSExecutor(driver).clickWithJS(hamburgerIcon);
 		return this;
 	}
 
